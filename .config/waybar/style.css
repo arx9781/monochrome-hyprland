@@ -1,0 +1,113 @@
+@import "colors.css";
+* {
+    font-size: 15px;
+    border: none;
+    font-family: GeistMono Nerd Font;
+    /* font-family: VCR OSD Mono; */
+    font-weight: 500;
+    min-height: 0;
+    border-radius: 0;
+    padding: 0 0 1px 0;
+}
+window#waybar {
+    /* color: @theme_fg_color; */
+    color: #404042;
+    /* background: rgba(0, 0, 0, 0.4); */
+    /* background: @theme_bg_color; */
+    background: #0a0a0a;
+    /* border-radius: 8px; */
+    /* border: 3px solid rgba(64, 64, 66, 1); */
+}
+/* Add rounded corners to the bar */
+#horBar {
+    /* border-radius: 8px; */
+    /* margin: 0px 8px 6px 8px;  */
+    /* border: 3px solid rgba(64, 64, 66, 1); */
+}
+tooltip {
+    background: transparent;
+}
+#workspaces button {
+    color: #404042;
+    padding: 0 0 0 2px;
+}
+#workspaces button.active {
+    /* color: @theme_bg_color; */
+    color: #949292;
+    /* background: @theme_fg_color; */
+    /* background: #949292; */
+}
+#workspaces button.focused {
+    color: @theme_fg_color;
+    background: transparent;
+}
+#workspaces button.urgent {
+    color: @theme_fg_color;
+    background: @theme_bg_color;
+}
+#workspaces button:hover {
+    background: @theme_fg_color;
+    color: @theme_bg_color;
+}
+#custom-swaync,
+#custom-language,
+#custom-updates,
+#custom-caffeine,
+#custom-weather,
+#window,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#tray,
+#cpu,
+#backlight {
+    background: transparent;
+    padding: 0px 5px;
+    margin: 0px;
+}
+#custom-swaync {
+    /* color: @theme_bg_color; */
+    /* color: #949292; */
+    /* background: @theme_fg_color; */
+    /* background: #949292; */
+}
+#tray {
+    margin-right: 10px;
+}
+#window {
+    color: @theme_text_color;
+}
+.verBar#clock {
+    color: #c4e969;
+}
+.horBar#clock {
+    color: @theme_text_color;
+}
+#clock {
+  padding: 0 8px 0 0;
+}
+#network {
+    color: @theme_text_color;
+}
+#pulseaudio {
+    /* color: @theme_text_color; */
+    color: #404042;
+}
+#pulseaudio.microphone {
+    color: @theme_text_color;
+}
+#mpris {
+    font-style: italic;
+    margin-right: 5px;
+    color: #949292;
+}
+#battery {
+    color: @theme_text_color;
+}
+#battery.warning:not(.charging) {
+    color: #c4e969;
+}
+#battery.critical:not(.charging) {
+    color: #b7416e;
+}
