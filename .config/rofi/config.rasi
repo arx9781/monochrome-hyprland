@@ -10,7 +10,7 @@ configuration {
     icon-theme: "Kora";
     location: 0;
     font: "Iosevka Nerd Font Medium 14";
-    display-drun: "";
+    display-drun: "Launch";
 }
 
 window { 
