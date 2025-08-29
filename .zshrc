@@ -50,14 +50,34 @@ setopt hist_ignore_dups
 setopt hist_find_no_dups
 
 # aliases
+
+# pacman aliases
 alias remove="sudo pacman -Rns"
 # alias s="sudo pacman -S --needed"
 alias s="yay -Ss"
 alias y="yay -S --needed"
+
+# file listing
 alias ls="eza -l -G -x"
 alias tree="eza --tree"
-alias remove="sudo pacman -Rns"
+
+# aliases for user programs
 alias anime="ani-cli"
+
+# git
+alias gs="git status --short"
+alias gd="git diff"
+
+alias ga="git add"
+alias gc="git commit"
+
+alias gp="git push"
+alias gu="git pull"
+
+alias gl="git log --oneline"
+alias gb="git branch"
+
+alias gi="git init"
 
 # shell integrations
 eval "$(fzf --zsh)"
