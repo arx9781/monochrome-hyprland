@@ -22,8 +22,8 @@ ttf-geist-mono ttf-geist (monospace and sans-serif font; p.s also looks great wi
 graphite-gtk-theme (rimless, black variant)
 ```
 
-[!NOTE]
-This setup contains dotfiles that i made and assembled according to my preferences. There may be some things that might not work for you if you decide to copy/clone this repo, so proceed with caution as your mileage may vary.
+> [!NOTE]
+> This setup contains dotfiles that i made and assembled according to my preferences. There may be some things that might not work for you if you decide to copy/clone this repo, so proceed with caution as your mileage may vary.
 
 ## Credits
 
