@@ -1,4 +1,4 @@
-# Monochrome. - Hyprland dotfiles
+# eclipse - Hyprland dotfiles
 
 ## Screenshots
 
