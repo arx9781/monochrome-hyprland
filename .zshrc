@@ -1,3 +1,7 @@
+if [[ -z "$TMUX" ]] && [[ "$TERM" != "screen" ]]; then
+	tmux new-session -A -s "main"
+fi
+
 # create a directory for zinit and plugins
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
