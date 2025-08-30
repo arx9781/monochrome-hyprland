@@ -2,24 +2,19 @@
 
 ## Screenshots
 
-### Default setup
-
-`working on the perfect screenshot`
-
-### Kawaii setup (the only colors in my dotfiles is her)
-
-![anime girl wallpaper + setup](/kawaii-wallpaper-setup.png)
+`cooking up some perfect screenshots`
 
 ## Dependencies
 
 ```
-hyprland (duh)
+hyprland (ofcourse)
 waybar (the top bar)
 rofi + rofi-emoji (application launcher & emoji picker)
-dunst (notifications)
+dunst (notification daemon)
 kitty (terminal of choice)
 ttf-geist-mono ttf-geist (monospace and sans-serif font; p.s also looks great with iosevka font)
 graphite-gtk-theme (rimless, black variant)
+tmux + tokyo night theme (modified)
 ```
 
 > [!NOTE]
@@ -27,6 +22,12 @@ graphite-gtk-theme (rimless, black variant)
 
 ## Credits
 
-My setup was heavily inspired by the reddit [user](https://www.reddit.com/user/K_AON/). I saw their post on `r/UNIXPORN` and decided yeah, "I fw this", so I just want to give them a credit for this.
+- My setup was heavily inspired by this reddit [user](https://www.reddit.com/user/K_AON/). I saw their post on `r/UNIXPORN` and decided yeah, "I fw this", so I just want to give them a credit for it.
 
-.zshrc config is entirely based on `Dreams of Autonomy's` [video](https://youtu.be/ud7YxC33Z3w?si=GAMewAdr28qoBftJ), I recommend the channel if you are interested in these things.
+- .zshrc config and some default tmux config is entirely based on [Dreams of Autonomys's](https://www.youtube.com/@dreamsofautonomy/featured) youtube channel. I highly recommend it if you're into these things.
+
+![Ayanami Rei](https://tenor.com/en-GB/view/ayanami-rei-gif-26888896)
+
+### Consider starring 🌟 this repo, thanks!
+
+<hr><i>Aditya Roychoudhary - 2025</i><hr>

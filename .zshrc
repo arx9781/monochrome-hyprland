@@ -1,6 +1,7 @@
-if [[ -z "$TMUX" ]] && [[ "$TERM" != "screen" ]]; then
-	tmux new-session -A -s "main"
-fi
+# start a new tmux window on terminal launch
+# if [[ -z "$TMUX" ]] && [[ "$TERM" != "screen" ]]; then
+#	tmux new-session -A -s "main"
+# fi
 
 # create a directory for zinit and plugins
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
@@ -57,8 +58,7 @@ setopt hist_find_no_dups
 
 # pacman aliases
 alias remove="sudo pacman -Rns"
-# alias s="sudo pacman -S --needed"
-alias s="yay -Ss"
+alias s="yay -Ss" # search
 alias y="yay -S --needed"
 
 # file listing
