@@ -26,7 +26,7 @@ tmux + tokyo night theme (modified)
 
 - .zshrc config and some default tmux config is entirely based on [Dreams of Autonomys's](https://www.youtube.com/@dreamsofautonomy/featured) youtube channel. I highly recommend it if you're into these things.
 
-![Ayanami Rei](https://tenor.com/en-GB/view/ayanami-rei-gif-26888896)
+![ayanami-rei](https://github.com/user-attachments/assets/779c60d4-7e75-4023-9243-0df35e718d35)
 
 ### Consider starring 🌟 this repo, thanks!
 
