@@ -2,7 +2,13 @@
 
 ## Screenshots
 
-`cooking up some perfect screenshots`
+| rofi and dunst (showing screenshot notification)    | btop & astroterm + floating window                  |
+| --------------------------------------------------- | --------------------------------------------------- |
+| ![img](/screenshots/2025-08-30-222312_hyprshot.png) | ![img](/screenshots/2025-08-30-223201_hyprshot.png) |
+
+| thorium (browser), vscode & viewnoir                | terminal + tmux                                     |
+| --------------------------------------------------- | --------------------------------------------------- |
+| ![img](/screenshots/2025-08-30-224852_hyprshot.png) | ![img](/screenshots/2025-08-30-225039_hyprshot.png) |
 
 ## Dependencies
 
